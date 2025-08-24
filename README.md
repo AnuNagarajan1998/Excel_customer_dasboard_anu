@@ -53,6 +53,25 @@ The intial analysis I did was with quantity the next thing I would be focusing o
 
 1. The top 5 most profitable products,
 2. Revenue generated and their trend.
+
+
+The next analysis I did was with the price and the quantity and I could possibly find that Sales
+do slightly decrease when the price goes up. But too when I tried to find the R^2 value in a scatter plot it is almost zero(0.0167), so the the price doesnot have a meaningful impact on the sales. I think the sales might mostly depend on the product category ,marketing trends etc
+
+
+**The top 5 most Profitable product**
+
+  1. Fabrikam Refrigerator 24.7CuFt X9800 White
+  2. Fabrikam Refrigerator 24.7CuFt X9800 Grey
+  3. Fabrikam Refrigerator 24.7CuFt X9800 Silver
+  4. Litware Refrigerator L1200 Orange
+  5. Fabrikam Refrigerator 24.7CuFt X9800 Orange
+
+
+Next Up I want to find the trend which affects the sales whether it is the category of the product or the seasons.
+
+
+
    
 
 
