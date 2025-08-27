@@ -1,79 +1,104 @@
-My First Data Analysis Project on the datasets from Maven Analytics.
+**📊 **My First Data Analysis Project – Maven Analytics Sales Data**
+🔎 Project Overview**
 
-This is a dataset from Global Electronics Retailer. It contains the sales data from a fictitious
-global electronics retailer, including tables containing inforamtion about transcation, products, 
-customers, stores and currency exchange rates.
+This project analyzes datasets from Maven Analytics, based on a fictitious global electronics retailer.
+The data includes transactions, products, customers, stores, and currency exchange rates, along with a data dictionary.
 
-There were 5 datasets and a datadictionary which contained information about all the datasets 
-I analyzed the datadictonary and came to a conclusion of first analysis some the primary details
-about the data set which includes
+The aim was to perform an initial exploratory analysis to understand customer distribution, product sales trends, and profitability.
 
+**📂 Datasets**
 
-1. The customer distribution and the variety of products they sell.
-2. Top 5 customers who purchased the more number of products in terms of quantity.
-3. Yearly and monthly analysis of the quantity of the products solded.
+Transactions – sales records with quantity, price, and currency
 
-These are the primary analysis I did on the datasets provided and I came up with conclusion for 3
-all the questions.
+Products – details of product categories and names
 
-**1.The customer distribution and the variety of products they sell.**
-  The majority of the customers belong to United States and also the customers are distributed 
-  among Australia and Europe Region.
-  And they sell nearly 33 different item.
+Customers – customer demographics and regions
 
-**2. Top 5 customers who purchased the more number of products in terms of quantity.**
-  The top 5 customers in terms of product quantity are 
-  1.Gaspare Trevisan
-  2.Paul Warren
-  3.Fabrice Lamoureux
-  4.Margaret Mattson
-  5.Lisa Sherman
+Stores – store locations across regions
 
-**3. Yearly and monthly analysis of the quantity of the products solded.**
-  From the yearly and monthly analysis I can clearly see that from 2016 - 2018 there is 
-  a good increase in sales. If we can define in percentage it would be
-      **2016-2017 -- 15%
-      2017-2018 -- 79%**
-But after this we could see a drop in sales eventhough the next financial year **2018-2019** eventhough 
-they had a good amount of profit of **52%** but there was a slight decrease in sales by **33.5%.**
+Exchange Rates – conversion rates for different currencies
 
-Then come a year where we all are hit by dealy corona and it hit every nook and corner of all
-the buisness and it had the taste of ours too and our sales for **2019 - 2020** drop by **49%**
+Data Dictionary – definitions of all fields
 
-And by the montly analysis I could understand that the month **December** has a record of high
-number of sales most of the year, we could relate this to the regional divisions and come 
-to a conclusion that the Chirstmas and NewYear had a effect in the sales
+**📑 Key Analyses Performed
+1️⃣ Customer Distribution & Product Variety
+**
+Majority of customers are from the United States, with significant presence in Australia and Europe.
 
-There was good amount of sales from May - October every year and the start of 2020 was good and 
-then it drop during the peak of lockdown.
+The retailer sells 33 different products across categories.
 
-April was performing bad every year if we want to make a note of it.
+**2️⃣ Top 5 Customers (by Quantity Purchased)**
 
-The intial analysis I did was with quantity the next thing I would be focusing on would be on
+Gaspare Trevisan
 
-1. The top 5 most profitable products,
-2. Revenue generated and their trend.
+Paul Warren
 
+Fabrice Lamoureux
 
-The next analysis I did was with the price and the quantity and I could possibly find that Sales
-do slightly decrease when the price goes up. But too when I tried to find the R^2 value in a scatter plot it is almost zero(0.0167), so the the price doesnot have a meaningful impact on the sales. I think the sales might mostly depend on the product category ,marketing trends etc
+Margaret Mattson
 
+Lisa Sherman
 
-**The top 5 most Profitable product**
+**3️⃣ Yearly & Monthly Sales Trends (Quantity Sold)**
 
-  1. Fabrikam Refrigerator 24.7CuFt X9800 White
-  2. Fabrikam Refrigerator 24.7CuFt X9800 Grey
-  3. Fabrikam Refrigerator 24.7CuFt X9800 Silver
-  4. Litware Refrigerator L1200 Orange
-  5. Fabrikam Refrigerator 24.7CuFt X9800 Orange
+2016 → 2017: +15% increase
 
+2017 → 2018: +79% increase (strong growth)
 
-Next Up I want to find the trend which affects the sales whether it is the category of the product or the seasons.
+2018 → 2019: –33.5% drop in sales, though profit rose by 52%
 
+2019 → 2020: –49% drop, strongly impacted by the COVID-19 pandemic
 
+**📅 Monthly Insights**
 
-   
+December → consistently highest sales (Christmas & New Year effect).
 
+May–October → steady performance each year.
 
+April → consistently low-performing month.
 
+Early 2020 started strong, but sales dropped sharply during the lockdown.
 
+**💰 Profitability Analysis**
+
+Sales slightly decrease when price increases, but with R² = 0.0167, price does not strongly impact sales.
+
+Other factors like product category, marketing trends, and seasonality likely play a bigger role.
+
+Top 5 Most Profitable Products
+
+Fabrikam Refrigerator 24.7CuFt X9800 White
+
+Fabrikam Refrigerator 24.7CuFt X9800 Grey
+
+Fabrikam Refrigerator 24.7CuFt X9800 Silver
+
+Litware Refrigerator L1200 Orange
+
+Fabrikam Refrigerator 24.7CuFt X9800 Orange
+
+**🚀 Next Steps**
+
+Deeper analysis of revenue trends and profitability drivers.
+
+Identify top product categories impacting sales.
+
+Explore seasonal effects on demand.
+
+Build visualizations (Excel / Tableau / Power BI) to better communicate insights.
+
+**🛠️ Tools Used**
+
+Excel – for data cleaning and analysis
+
+SQL (BigQuery) – query-based exploration (planned for next stage)
+
+GitHub – project documentation and version control
+
+**✅ With this project, I demonstrated the ability to:**
+
+Work with multiple datasets
+
+Analyze customer behavior & product performance
+
+Communicate insights using clear business conclusions
