@@ -20,7 +20,7 @@ Exchange Rates – conversion rates for different currencies
 
 Data Dictionary – definitions of all fields
 
-**📑 Key Analyses Performed
+**📑 Key Analyses Performe
 1️⃣ Customer Distribution & Product Variety
 **
 Majority of customers are from the United States, with significant presence in Australia and Europe.
